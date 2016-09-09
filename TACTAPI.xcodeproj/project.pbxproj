@@ -8,12 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		841F68671D82761200902386 /* TACTAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 841F68661D82761200902386 /* TACTAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		841F68701D82884200902386 /* TactSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 841F686E1D82884200902386 /* TactSupport.h */; };
+		841F68711D82884200902386 /* TactSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F686F1D82884200902386 /* TactSupport.m */; };
+		841F68771D828E2C00902386 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 841F68731D828E2C00902386 /* MBProgressHUD.h */; };
+		841F68781D828E2C00902386 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F68741D828E2C00902386 /* MBProgressHUD.m */; };
+		841F68791D828E2C00902386 /* ProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 841F68751D828E2C00902386 /* ProgressHUD.h */; };
+		841F687A1D828E2C00902386 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F68761D828E2C00902386 /* ProgressHUD.m */; };
+		841F687E1D828E4E00902386 /* AsyncImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 841F687C1D828E4E00902386 /* AsyncImageView.h */; };
+		841F687F1D828E4E00902386 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F687D1D828E4E00902386 /* AsyncImageView.m */; };
+		841F68851D828E9700902386 /* InterNetTesting.h in Headers */ = {isa = PBXBuildFile; fileRef = 841F68811D828E9700902386 /* InterNetTesting.h */; };
+		841F68861D828E9700902386 /* InterNetTesting.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F68821D828E9700902386 /* InterNetTesting.m */; };
+		841F68871D828E9700902386 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 841F68831D828E9700902386 /* Reachability.h */; };
+		841F68881D828E9700902386 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F68841D828E9700902386 /* Reachability.m */; };
+		841F688C1D828F2100902386 /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = 841F688A1D828F2100902386 /* UIView+Toast.h */; };
+		841F688D1D828F2100902386 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F688B1D828F2100902386 /* UIView+Toast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		841F68631D82761200902386 /* TACTAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TACTAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		841F68661D82761200902386 /* TACTAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TACTAPI.h; sourceTree = "<group>"; };
 		841F68681D82761200902386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841F686E1D82884200902386 /* TactSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TactSupport.h; sourceTree = "<group>"; };
+		841F686F1D82884200902386 /* TactSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TactSupport.m; sourceTree = "<group>"; };
+		841F68731D828E2C00902386 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		841F68741D828E2C00902386 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		841F68751D828E2C00902386 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		841F68761D828E2C00902386 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		841F687C1D828E4E00902386 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		841F687D1D828E4E00902386 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		841F68811D828E9700902386 /* InterNetTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterNetTesting.h; sourceTree = "<group>"; };
+		841F68821D828E9700902386 /* InterNetTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterNetTesting.m; sourceTree = "<group>"; };
+		841F68831D828E9700902386 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		841F68841D828E9700902386 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		841F688A1D828F2100902386 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		841F688B1D828F2100902386 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,8 +76,54 @@
 			children = (
 				841F68661D82761200902386 /* TACTAPI.h */,
 				841F68681D82761200902386 /* Info.plist */,
+				841F686E1D82884200902386 /* TactSupport.h */,
+				841F686F1D82884200902386 /* TactSupport.m */,
+				841F68891D828F2100902386 /* Toast */,
+				841F68801D828E9700902386 /* InertnetCheck */,
+				841F687B1D828E4E00902386 /* AsyncImageAPI */,
+				841F68721D828E2C00902386 /* loaderView */,
 			);
 			path = TACTAPI;
+			sourceTree = "<group>";
+		};
+		841F68721D828E2C00902386 /* loaderView */ = {
+			isa = PBXGroup;
+			children = (
+				841F68731D828E2C00902386 /* MBProgressHUD.h */,
+				841F68741D828E2C00902386 /* MBProgressHUD.m */,
+				841F68751D828E2C00902386 /* ProgressHUD.h */,
+				841F68761D828E2C00902386 /* ProgressHUD.m */,
+			);
+			path = loaderView;
+			sourceTree = "<group>";
+		};
+		841F687B1D828E4E00902386 /* AsyncImageAPI */ = {
+			isa = PBXGroup;
+			children = (
+				841F687C1D828E4E00902386 /* AsyncImageView.h */,
+				841F687D1D828E4E00902386 /* AsyncImageView.m */,
+			);
+			path = AsyncImageAPI;
+			sourceTree = "<group>";
+		};
+		841F68801D828E9700902386 /* InertnetCheck */ = {
+			isa = PBXGroup;
+			children = (
+				841F68811D828E9700902386 /* InterNetTesting.h */,
+				841F68821D828E9700902386 /* InterNetTesting.m */,
+				841F68831D828E9700902386 /* Reachability.h */,
+				841F68841D828E9700902386 /* Reachability.m */,
+			);
+			path = InertnetCheck;
+			sourceTree = "<group>";
+		};
+		841F68891D828F2100902386 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				841F688A1D828F2100902386 /* UIView+Toast.h */,
+				841F688B1D828F2100902386 /* UIView+Toast.m */,
+			);
+			path = Toast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +133,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841F68851D828E9700902386 /* InterNetTesting.h in Headers */,
+				841F68701D82884200902386 /* TactSupport.h in Headers */,
+				841F687E1D828E4E00902386 /* AsyncImageView.h in Headers */,
+				841F688C1D828F2100902386 /* UIView+Toast.h in Headers */,
+				841F68791D828E2C00902386 /* ProgressHUD.h in Headers */,
+				841F68771D828E2C00902386 /* MBProgressHUD.h in Headers */,
 				841F68671D82761200902386 /* TACTAPI.h in Headers */,
+				841F68871D828E9700902386 /* Reachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +211,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841F687A1D828E2C00902386 /* ProgressHUD.m in Sources */,
+				841F68861D828E9700902386 /* InterNetTesting.m in Sources */,
+				841F68711D82884200902386 /* TactSupport.m in Sources */,
+				841F68781D828E2C00902386 /* MBProgressHUD.m in Sources */,
+				841F688D1D828F2100902386 /* UIView+Toast.m in Sources */,
+				841F68881D828E9700902386 /* Reachability.m in Sources */,
+				841F687F1D828E4E00902386 /* AsyncImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +365,7 @@
 				841F686D1D82761200902386 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
